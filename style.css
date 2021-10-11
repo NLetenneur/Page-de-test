@@ -1,4 +1,29 @@
+*
+{
+		font-family: "Verdana", Arial;
+}
+body
+{
+	background-color: #e7e7e7;
+
+}
 h1
-{color: darkgreen;}
+{
+	color: darkgreen;
+	font-size: 1.5em;
+	text-align: center;	
+	box-shadow: 3px 3px 3px grey;
+}
 h2
-{color: seagreen;}
+{
+	color: seagreen;
+	font-size: 1.25em;
+}
+
+p
+{
+	font-size: 1em;
+	text-align: justify;
+	background-color: rgba(250, 250, 250, 0.2);
+}
+
