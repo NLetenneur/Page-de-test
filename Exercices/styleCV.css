@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'AventPro';
+    src: url('adventpro-regular.ttf') ;
+}
+body
+{
+	background-image: url("images/Couronne.png");
+	background-attachment: fixed; /* Le fond restera fixe */
+    background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    background-position: top right; /* Le fond sera placé en haut à droite */
+}
+
+h1
+{
+	color: darkgreen;
+}
+
+p, ul
+{
+	text-align: justify;
+	font-family: "AventPro", verdana, Arial, serif;
+}
+
+ 
+{
+	font-family: "AventPro", verdana, Arial, serif;
+
+}
+
+figure
+{
+	border: 2px darkgreen solid;
+	box-shadow: 3px 3px 3px grey;
+}
