@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'AventPro';
+    src: url('adventpro-regular.ttf') ;
+}
+#bloc
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+h1
+{
+	color: darkgreen;
+}
+
+p, ul
+{
+	text-align: justify;
+	font-family: "AventPro", verdana, Arial, serif;
+}
+
+ header
+{
+	font-family: "AventPro", verdana, Arial, serif;
+	text-align: center;
+
+}
+
+nav
+{
+	box-shadow: 3px 3px 3px grey;
+	width: 150px;
+	background-color: darkgreen;
+	padding: 3px;
+	margin: 2px;
+}
+
+#Expérience
+{
+	padding: 3px;
+	margin: 2px;
+	width: 25%;
+}
+
+#Compétences
+{
+	padding: 3px;
+	margin: 2px;
+	width: 25%;
+}
+
+#Formation
+{
+	padding: 3px;
+	margin: 2px;
+	width: 25%;
+}
