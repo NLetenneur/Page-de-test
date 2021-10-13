@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'AventPro';
+    src: url('adventpro-regular.ttf') ;
+}
+section 
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+h1
+{
+	color: darkgreen;
+}
+
+p, ul
+{
+	text-align: justify;
+	font-family: "AventPro", verdana, Arial, serif;
+}
+
+ header
+{
+	font-family: "AventPro", verdana, Arial, serif;
+	text-align: center;
+
+}
+
+nav
+{
+	box-shadow: 3px 3px 3px grey;
+	width: 150px;
+	background-color: darkgreen;
+	padding: 3px;
+	margin: 2px;
+}
+
+div{
+	padding: 3px;
+	margin: 2px;
+	width: 25%;
+}
+@media all and (max-width: 1024px)
+{
+    section
+    {
+        width: auto;
+        justify-content: center;
+    }
+    div
+    {
+        width: auto;
+        
+    }
+    
+    li
+    {
+        padding-left: 4px;
+        text-align: justifiy;
+    }
+    
+    nav a
+    {
+        font-size: 1.1em;
+    }
+    
+    nav a:hover
+    {
+        border-bottom: 0;
+    }
+    #bloc
+    {
+        display: none;
+    }
+    section
+    {
+        flex-direction: column;
+    }
+}
